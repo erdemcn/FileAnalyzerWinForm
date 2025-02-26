@@ -18,12 +18,13 @@ namespace FileAnalyzer
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            txtPassword.UseSystemPasswordChar = true;
 
         }
 
 
 
-       
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text;
